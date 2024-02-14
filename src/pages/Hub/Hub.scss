@@ -1,5 +1,5 @@
 .hub_page_content_nav{
-  margin: 5px;
+  margin: 10px;
 
   .hub_page_content_nav_button{
     width: auto;
@@ -14,5 +14,17 @@
       background-color: #4f4f4f;
     }
   }
+
+}
+.hub_page_content_content_button{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 210px;
+  height: 42px;
+  color: white;
+  background-color: #6d6d6d;
 
 }

@@ -1,5 +1,5 @@
 .CardHub_container{
-  background-color: grey;
+  background-color: #a7a6a6;
   height: 150px;
   margin: 25px;
   display: flex;
@@ -13,11 +13,11 @@
     padding: 0 15px;
   }
   .CardHub_container_footer{
-    background-color: dimgrey;
+    background-color: #929292;
     display: flex;
     justify-content: space-between;
     padding: 1px 15px;
-    color: #1a1a1a;
+    color: #333333;
     .CardHub_container_footer_class{
       font-weight: bold;
     }
