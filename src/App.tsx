@@ -35,6 +35,7 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 import Hub from "./pages/Hub/Hub";
+import MesCours from "./components/Hub/MesCours/MesCours";
 
 setupIonicReact();
 
@@ -55,6 +56,10 @@ const App: React.FC = () => (
           <Route path="/hub">
             <Hub />
           </Route>
+          <Route path="/hub/mesCours">
+            <MesCours/>
+          </Route>
+
           <Route path="/Login">
             <Login />
           </Route>
@@ -63,17 +68,11 @@ const App: React.FC = () => (
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom" className={"tabBar"}>
-          <IonTabButton tab="tab1" href="/tab1" className={"tabBar"}>
-            <IonIcon aria-hidden="true" icon={triangle} />
-            <IonLabel>Tab 1</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="tab2" href="/tab2" className={"tabBar"}>
-            <IonIcon aria-hidden="true" icon={ellipse} />
-            <IonLabel>Tab 2</IonLabel>
-          </IonTabButton>
+
           <IonTabButton tab="hub" href="/hub" className={"tabBar"}>
           <IonIcon aria-hidden="true" icon={schoolOutline} />
         </IonTabButton>
+
         </IonTabBar>
       </IonTabs>
     </IonReactRouter>
