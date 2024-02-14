@@ -5,7 +5,7 @@ import {
 import React from 'react';
 import './Hub.scss';
 import MesCours from "../../components/Hub/MesCours/MesCours";
-import News from "../../components/Hub/News/News";
+import News from "../../components/Hub/EspacePeda/News/News";
 const Hub: React.FC = () => {
     return (
         <IonPage className={"hub_page"}>

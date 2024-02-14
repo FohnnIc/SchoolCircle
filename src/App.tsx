@@ -72,6 +72,7 @@ const App: React.FC = () => (
           <IonTabButton tab="hub" href="/hub" className={"tabBar"}>
           <IonIcon aria-hidden="true" icon={schoolOutline} />
         </IonTabButton>
+
         </IonTabBar>
       </IonTabs>
     </IonReactRouter>
