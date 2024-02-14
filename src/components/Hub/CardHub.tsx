@@ -1,17 +1,20 @@
 import React from 'react';
 import './CardHub.scss';
 interface CardHubProps {
-    name: string;
+    title: string;
+    manager: string;
+    classLabel: string;
+    numberMembers: number;
 }
 
-const CardHub: React.FC<CardHubProps> = ({ name }) => {
+const CardHub: React.FC<CardHubProps> = ({title,manager,classLabel,numberMembers}) => {
     return (
         <div className={"CardHub_container"}>
-            <h3 className={"CardHub_container_titre"}>Titre</h3>
-            <h2 className={"CardHub_container_responsable"}>Responsable</h2>
+            <h3 className={"CardHub_container_titre"}>{title}</h3>
+            <h4 className={"CardHub_container_responsable"}>responsable : {manager}</h4>
             <div className={"CardHub_container_footer"}>
-                <h4 className={"CardHub_container_footer_class"}>B3 info</h4>
-                <h4 className={"CardHub_container_footer_members"}>X participants</h4>
+                <h5 className={"CardHub_container_footer_class"}>{classLabel}</h5>
+                <h5 className={"CardHub_container_footer_members"}>{numberMembers} participants</h5>
 
             </div>
 

@@ -1,0 +1,25 @@
+.CardHub_container{
+  background-color: grey;
+  height: 150px;
+  margin: 25px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  .CardHub_container_titre{
+    padding: 1px 15px;
+    font-weight: bold;
+  }
+  .CardHub_container_responsable{
+    padding: 0 15px;
+  }
+  .CardHub_container_footer{
+    background-color: dimgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 15px;
+    color: #1a1a1a;
+    .CardHub_container_footer_class{
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.hub_page_content_nav{
+  margin: 5px;
+
+  .hub_page_content_nav_button{
+    width: auto;
+    height: 29px;
+    gap: 8px;
+    padding: 6px 10px;
+    font-size: 1rem;
+    margin: 5px;
+    color: white;
+    background-color: grey;
+    &.hub_page_content_nav_button_active {
+      background-color: #4f4f4f;
+    }
+  }
+
+}
