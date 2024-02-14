@@ -2,7 +2,7 @@
 import React from 'react';
 import './MesCours.scss';
 import {IonButton, IonContent} from "@ionic/react";
-import CardNews from "../News/CardNews";
+import CardNews from "./News/CardNews";
 import SearchBar from "../../searchBar/SearchBar";
 const EspacePeda: React.FC = () => {
     return (
