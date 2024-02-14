@@ -1,0 +1,7 @@
+{
+  "name": "SchoolCircle",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
