@@ -1,5 +1,5 @@
 import React from 'react';
-import './CardHub.scss';
+import './CardHubMesCours.scss';
 interface CardHubProps {
     title: string;
     manager: string;
@@ -7,7 +7,7 @@ interface CardHubProps {
     numberMembers: number;
 }
 
-const CardHub: React.FC<CardHubProps> = ({title,manager,classLabel,numberMembers}) => {
+const CardHubMesCours: React.FC<CardHubProps> = ({title,manager,classLabel,numberMembers}) => {
     return (
         <div className={"CardHub_container"}>
             <h3 className={"CardHub_container_titre"}>{title}</h3>
@@ -22,4 +22,4 @@ const CardHub: React.FC<CardHubProps> = ({title,manager,classLabel,numberMembers
     );
 };
 
-export default CardHub;
+export default CardHubMesCours;
